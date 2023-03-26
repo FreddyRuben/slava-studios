@@ -4,13 +4,14 @@
 }
 
 body{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 header{
     background-color: #000324;
     display: flex;
+    height: 90px;
 }
 
 #logoImg{
@@ -61,4 +62,55 @@ header{
 
 .mid-logo{
     padding-top: 25px;
+}
+
+footer{
+    padding: 20px;
+    background: #000324
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentFooterImg{
+    width: 20%;
+}
+
+.contentFooterImg img{
+    width: 85%;
+}
+
+.ContentFooterText{
+    width: 25%;
+    color: #ffffff;
+}
+
+.contentFooterNetworks{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contentFooterNetworks a{
+    width: 15%;
+    margin-right: 10%;
+}
+
+.contentFooterNetworks a img{
+    width: 100%;
+    color: #fff;
+    border-radius: 7%;
+}
+
+hr{
+    background: #ffffff;
+}
+
+.autor{
+    margin-top: 5px;
+    color: #ffffff;
+    text-align: center;
 }
