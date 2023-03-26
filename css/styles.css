@@ -64,71 +64,53 @@ header{
     padding-top: 25px;
 }
 
-#content-make{
-    /*height: 250px;*/
+footer{
+    padding: 20px;
+    background: #000324
+}
+
+.footerDiv{
     display: flex;
-    margin-top: 70px;
-}
-
-[name="title"]{
-    text-align:justify;
-    margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 4px;
-    padding-left: 130px;
-    text-transform: uppercase;
-}
-
-#content-info{
-    flex: 1;
-    padding-left: 100px;
-}
-
-#content-make .text{
-    text-align: justify;
-    /*border: 1px solid #000;*/
-    width: 400px;
-    padding-left: 35px;
-    margin-top: 10px;
-}
-
-#content-image{
-    height: 400px;
-    flex:  1;
-    padding-left: 50px;
-}
-
-#content-image img{
-    width: 400px;
-    height: 400px;
-}
-
-
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  
-
-  .swiper-slide {
-    flex: 1.5;
     justify-content: center;
     align-items: center;
-  }
-  
+}
 
-  @media (max-width: 760px) {
-    .swiper-button-next {
-      right: 20px;
-      transform: rotate(90deg);
-    }
+.contentFooterImg{
+    width: 20%;
+}
 
-    .swiper-button-prev {
-      left: 20px;
-      transform: rotate(90deg);
-    }
-  }
-  
+.contentFooterImg img{
+    width: 85%;
+}
+
+.ContentFooterText{
+    width: 25%;
+    color: #ffffff;
+}
+
+.contentFooterNetworks{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contentFooterNetworks a{
+    width: 15%;
+    margin-right: 10%;
+}
+
+.contentFooterNetworks a img{
+    width: 100%;
+    color: #fff;
+    border-radius: 7%;
+}
+
+hr{
+    background: #ffffff;
+}
+
+.autor{
+    margin-top: 5px;
+    color: #ffffff;
+    text-align: center;
+}
