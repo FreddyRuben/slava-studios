@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
         autoControls: true,
         stopAutoOnClick: true,
         pager: true,
-        slideWidth: 1800
+        slideWidth: 1850
       });
       // Slide de tecnologias
       var swiper = new Swiper('.swiper', {
