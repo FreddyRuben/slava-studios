@@ -7,25 +7,25 @@ window.addEventListener('load', () => {
         pager: true,
         slideWidth: 1850
       });
-      // Slide de tecnologias
-      var swiper = new Swiper('.swiper', {
-        slidesPerView: 7,
-        direction: getDirection(),
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        on: {
-          resize: function () {
-            swiper.changeDirection(getDirection());
-          },
-        },
-      });
+      // // Slide de tecnologias
+      // var swiper = new Swiper('.swiper', {
+      //   slidesPerView: 7,
+      //   direction: getDirection(),
+      //   navigation: {
+      //     nextEl: '.swiper-button-next',
+      //     prevEl: '.swiper-button-prev',
+      //   },
+      //   on: {
+      //     resize: function () {
+      //       swiper.changeDirection(getDirection());
+      //     },
+      //   },
+      // });
   
-      function getDirection() {
-        var windowWidth = window.innerWidth;
-        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+      // function getDirection() {
+      //   var windowWidth = window.innerWidth;
+      //   var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
   
-        return direction;
-      }
+      //   return direction;
+      // }
 });
