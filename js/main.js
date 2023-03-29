@@ -7,25 +7,19 @@ window.addEventListener('load', () => {
         pager: true,
         slideWidth: 1850
       });
-      // // Slide de tecnologias
-      // var swiper = new Swiper('.swiper', {
-      //   slidesPerView: 7,
-      //   direction: getDirection(),
-      //   navigation: {
-      //     nextEl: '.swiper-button-next',
-      //     prevEl: '.swiper-button-prev',
-      //   },
-      //   on: {
-      //     resize: function () {
-      //       swiper.changeDirection(getDirection());
-      //     },
-      //   },
-      // });
-  
-      // function getDirection() {
-      //   var windowWidth = window.innerWidth;
-      //   var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-  
-      //   return direction;
-      // }
+
+      //Script de opacidad para las tecnologias
+      let mouseenterNode = () => {
+        tech_node.style.opacity = 0.5;
+        tech_node.style.transition = 'all 1s';
+      }
+
+      let mouseleaveNode = () => {
+        tech_node.style.opacity = 1;
+        tech_node.style.transition = 'all 1s'
+      }
+
+      let tech_node = document.querySelector("#node");
+      tech_node.addEventListener('mouseenter', mouseenterNode);
+      tech_node.addEventListener('mouseleave', mouseleaveNode);
 });

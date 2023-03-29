@@ -62,6 +62,49 @@ header{
 /* -------------- */
 /* Main Content */
 /* -------------- */
+#techs ul{
+    display: flex;
+    list-style: none;
+    height: 118px;
+    width: 90%;
+    margin: auto;
+}
+
+#techs ul li{
+    margin: auto;
+}
+
+#techs ul li img{
+    width: 100px;
+}
+
+#node{
+    margin: 27px 0;
+}
+
+#angular{
+    margin: 7px 0;
+}
+
+#javascript{
+    margin: 7px 0;
+}
+
+#php{
+    margin: 30px 0;
+}
+
+#laravel{
+    margin: 23px 0;
+}
+
+#mysql{
+    margin: 27px 0;
+}
+
+#express{
+    margin: 7px 0;
+}
 
 #content-make{
     display: flex;
@@ -81,59 +124,6 @@ header{
 #content-info p{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* footer{
-    padding: 20px;
-    background: #000324;
-}
-
-.footerDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contentFooterImg{
-    width: 20%;
-}
-
-.contentFooterImg img{
-    width: 85%;
-}
-
-.ContentFooterText{
-    width: 35%;
-    color: #ffffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.contentFooterNetworks{
-    width: 15%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.contentFooterNetworks a{
-    width: 15%;
-    margin-right: 10%;
-}
-
-.contentFooterNetworks a img{
-    width: 100%;
-    color: #fff;
-    border-radius: 7%;
-}
-
-hr{
-    background: #ffffff;
-}
-
-.autor{
-    margin-top: 5px;
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
-} */
 
 /* -------------- */
 /* Footer */
@@ -254,15 +244,6 @@ footer{
         margin-bottom: 20px;
     }
 }
-
-/* @media(max-width: 870px){
-    #content-image{
-        width: 400px;
-        margin: auto;
-        margin-top: 20px;
-        padding-left: 40px;
-    }
-} */
 
 @media(max-width: 800px){
     .footerDiv{
