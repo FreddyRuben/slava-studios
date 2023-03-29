@@ -106,6 +106,12 @@ header{
     margin: 7px 0;
 }
 
+#division{
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+}
+
 #content-make{
     display: flex;
     margin-top: 100px;
@@ -194,6 +200,12 @@ footer{
 /* -------------- */
 /* Media Queries */
 /* -------------- */
+
+@media(max-width: 1550px){
+    #techs ul li img{
+        width: 85px;
+    }
+}
 
 @media(max-width: 1330px){
     #dev-image{
