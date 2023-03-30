@@ -59,6 +59,7 @@ header{
 
 #menu-content{
     padding-left: 120px;
+    display: none;
 }
 
 #menu-content a{
