@@ -54,32 +54,46 @@ header{
     transition: all 1s;
 }
 
-#menu-icon-content{
-    margin: 10px 10px 0 0;
+#all-menu{
+}
+
+#menu-content{
+    padding-left: 120px;
+}
+
+#menu-content a{
+}
+
+#menu-content a img{
+}
+
+#elements-menu{
     display: none;
-    width: 100%;
+    background-color: #121212;
+    height: 870px;
 }
 
-#menu-side{
+#elements-menu ul{
     list-style: none;
-    background: #000000;
     width: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    height: 600px;
-    /* width: 100%; */
-    padding-left: 25px;
+    margin-top: 14px;
 }
 
-#menu-side li {
-    height: 120px;
+#elements-menu ul li{
     text-align: end;
-    padding: 20px 0;
+    padding-top: 75px;
+    margin-right: 25px;
 }
 
-#menu-side li a{
+#elements-menu ul li a{
     text-decoration: none;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#elements-menu ul li a:hover{
+    text-decoration: underline;
 }
 
 /* -------------- */
@@ -153,7 +167,6 @@ header{
 #content-info p{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /* -------------- */
 /* Footer */
 /* -------------- */
@@ -270,7 +283,7 @@ footer{
     .nav{
         display: none;
     }
-    #menu-icon-content{
+    #menu-content{
         display: block;
     }
     #dev-image{

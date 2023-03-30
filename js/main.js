@@ -134,4 +134,22 @@ window.addEventListener('load', () => {
       let tech_express = document.querySelector("#express");
       tech_express.addEventListener('mouseenter', mouseenterExpress);
       tech_express.addEventListener('mouseleave', mouseleaveExpress);
+
+
+
+      let clickOnMenu = () => {
+        let menu = document.querySelector('#elements-menu');
+
+        if(menu.style.display = 'none'){
+          menu.style.display = 'block';
+          console.log('El display era none y se debio cambiar a block');
+        }
+        else if(menu.style.display = 'block'){
+          menu.style.display = 'none';
+          console.log('El display era block y se debio cambiar a none');
+        }
+      }
+
+      let menu_icon = document.querySelector('#menu-content');
+      menu_icon.addEventListener('click', clickOnMenu);
 });
