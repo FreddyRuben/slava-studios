@@ -415,6 +415,9 @@ footer{
 }
 
 @media(max-width: 576px){
+    .projects-button{
+        margin-left: 225px;
+    }
     .projects-button p{
         padding-top: 15px;
     }
@@ -423,5 +426,11 @@ footer{
 @media(max-width: 530px){
     #techs ul li img{
         width: 35px;
+    }
+
+    @media(max-width: 530px){
+        .projects-button{
+            margin-left: 200px;
+        }
     }
 }
