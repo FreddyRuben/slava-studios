@@ -434,3 +434,68 @@ footer{
         }
     }
 }
+
+/* Content of projects */
+.title-of-project{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.title-of-project h3{
+    margin-top: 60px;
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+.box-content-project{
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+}
+.box-content-project img{
+    width: 100%;
+}
+
+.title-of-projects{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.text-of-projects{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width:820px){
+    .box-projects{
+        flex-wrap: wrap;
+    }
+
+    .box-content-project{
+        width: 29%;
+    }
+
+    .title-of-projects{
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .box-projects{
+        flex-wrap: wrap;
+    }
+
+    .box-content-project{
+        width: 40%;
+    }
+
+    .title-of-projects{
+        font-size: 40px;
+    }
+}
